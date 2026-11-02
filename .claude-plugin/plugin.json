@@ -1,0 +1,14 @@
+{
+  "name": "dominio",
+  "version": "0.1.0",
+  "description": "Auditoria e análise do ERP Domínio no Claude: a ponte local executa consultas somente leitura no banco do escritório e o Conector Domínio da Cabeda fornece o mapa das tabelas e as consultas prontas.",
+  "author": {
+    "name": "Cabeda Contabilidade",
+    "email": "adm@cabeda.com.br",
+    "url": "https://www.cabeda.com.br"
+  },
+  "homepage": "https://github.com/compucel/dominio-plugin",
+  "repository": "https://github.com/compucel/dominio-plugin",
+  "license": "Proprietary",
+  "keywords": ["dominio", "contabilidade", "escrita fiscal", "apuracao", "odbc", "sql anywhere"]
+}

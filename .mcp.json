@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "dominio-ponte": {
+      "command": "npx",
+      "args": ["-y", "@cabeda/dominio-ponte@0.1"],
+      "env": {
+        "DOMINIO_DSN": "${DOMINIO_DSN:-Contabil}"
+      }
+    },
+    "dominio-conector": {
+      "type": "http",
+      "url": "https://mcp.cabeda.com.br/mcp"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "cabeda",
+  "owner": {
+    "name": "Cabeda Contabilidade",
+    "email": "adm@cabeda.com.br"
+  },
+  "metadata": {
+    "description": "Plugins da Cabeda Contabilidade para escritórios que usam o ERP Domínio"
+  },
+  "plugins": [
+    {
+      "name": "dominio",
+      "source": "./",
+      "description": "Auditoria e análise do ERP Domínio: ponte ODBC local somente leitura + Conector Domínio (requer cadastro e licença Cabeda)",
+      "version": "0.1.0",
+      "category": "produtividade",
+      "keywords": ["dominio", "contabilidade", "fiscal"]
+    }
+  ]
+}
